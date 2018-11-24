@@ -12,9 +12,9 @@ using System.Text.RegularExpressions;
 using System.Text;
 using System;
 
-namespace TestConsoleAppExperiments
+namespace FunctionPlayground.HackerRank
 {
-    public class HackerRank
+    public class ProblemSolving
     {
         /* 
         
