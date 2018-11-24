@@ -57,9 +57,9 @@
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\TestConsoleAppExperiments\TestConsoleAppExperiments.csproj">
+    <ProjectReference Include="..\TestConsoleAppExperiments\FunctionPlaygroundConsole.csproj">
       <Project>{f1ccf012-f0ca-44ce-ae5d-78c59e8aa99d}</Project>
-      <Name>TestConsoleAppExperiments</Name>
+      <Name>FunctionPlaygroundConsole</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(VSToolsPath)\TeamTest\Microsoft.TestTools.targets" Condition="Exists('$(VSToolsPath)\TeamTest\Microsoft.TestTools.targets')" />

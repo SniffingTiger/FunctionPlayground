@@ -14,7 +14,7 @@ namespace TestConsoleUnitTests
         public void NumChars_Returns_1(string input)
         {
             char[] inputCharArray = input.ToCharArray();
-            int result = Program.NumChars(inputCharArray);
+            int result = ConsolePlayground.NumChars(inputCharArray);
 
             Assert.AreEqual(1, result);
         }
@@ -24,7 +24,7 @@ namespace TestConsoleUnitTests
         public void NumChars_Returns_2(string input)
         {
             char[] inputCharArray = input.ToCharArray();
-            int result = Program.NumChars(inputCharArray);
+            int result = ConsolePlayground.NumChars(inputCharArray);
 
             Assert.AreEqual(2, result);
         }

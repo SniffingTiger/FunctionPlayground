@@ -16,7 +16,7 @@ namespace TestConsoleUnitTests
         {
             int[] testInput = new int[] { arr1, arr2, arr3, arr4, arr5, arr6, arr7 };
 
-            Assert.AreEqual(result, Program.SecondLargestNum(testInput));
+            Assert.AreEqual(result, ConsolePlayground.SecondLargestNum(testInput));
         }
     }
 }

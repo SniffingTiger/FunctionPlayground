@@ -3,9 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.27703.2035
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestConsoleAppExperiments", "TestConsoleAppExperiments\TestConsoleAppExperiments.csproj", "{F1CCF012-F0CA-44CE-AE5D-78C59E8AA99D}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FunctionPlaygroundConsole", "TestConsoleAppExperiments\FunctionPlaygroundConsole.csproj", "{F1CCF012-F0CA-44CE-AE5D-78C59E8AA99D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestConsoleUnitTests", "TestConsoleUnitTests\TestConsoleUnitTests.csproj", "{4DACB384-9C72-4CC9-925E-FD84CE494304}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FunctionPlaygroundConsole_UnitTests", "TestConsoleUnitTests\FunctionPlaygroundConsole_UnitTests.csproj", "{4DACB384-9C72-4CC9-925E-FD84CE494304}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
