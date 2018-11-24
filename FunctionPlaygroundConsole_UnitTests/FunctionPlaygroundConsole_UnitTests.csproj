@@ -57,7 +57,7 @@
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\TestConsoleAppExperiments\FunctionPlaygroundConsole.csproj">
+    <ProjectReference Include="..\FunctionPlaygroundConsole\FunctionPlaygroundConsole.csproj">
       <Project>{f1ccf012-f0ca-44ce-ae5d-78c59e8aa99d}</Project>
       <Name>FunctionPlaygroundConsole</Name>
     </ProjectReference>

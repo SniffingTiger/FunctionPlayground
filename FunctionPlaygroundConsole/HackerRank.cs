@@ -84,5 +84,29 @@ namespace TestConsoleAppExperiments
             int result = Math.Abs(primaryDiag - secondaryDiag);
             return result;
         }
+
+        // Complete the plusMinus function below.
+        public static void plusMinus(int[] arr)
+        {
+            int positives = 0;
+            int negatives = 0;
+            int zeros = 0;
+
+            foreach (int item in arr)
+            {
+                if (item > 0) { positives++; }
+                if (item == 0) { zeros++; }
+                if (item < 0) { negatives++; }
+            }
+
+            decimal positivesDec = (decimal)positives / arr.Length;
+            decimal negativesDec = (decimal)negatives / arr.Length;
+            decimal zerosDec = (decimal)zeros / arr.Length;
+
+            Console.WriteLine(positivesDec.ToString("N6"));
+            Console.WriteLine(negativesDec.ToString("N6"));
+            Console.WriteLine(zerosDec.ToString("N6"));
+        }
+
     }
 }
