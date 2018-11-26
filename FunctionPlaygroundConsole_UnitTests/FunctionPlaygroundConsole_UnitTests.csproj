@@ -49,6 +49,8 @@
     <Reference Include="System.Core" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Unit_Tests_For_DegreeBetweenHourandMinute.cs" />
+    <Compile Include="Unit_Tests_For_DegreeBetweenHourandSecond.cs" />
     <Compile Include="Unit_Tests_For_SecondLargestNum.cs" />
     <Compile Include="Unit_Tests_For_NumChars.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

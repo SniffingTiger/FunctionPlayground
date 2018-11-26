@@ -43,8 +43,9 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="ConsolePlayground.cs" />
-    <Compile Include="HackerRank.cs" />
+    <Compile Include="Interview-Preparation.cs" />
     <Compile Include="Person.cs" />
+    <Compile Include="Problem-Solving.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

@@ -466,5 +466,65 @@ namespace TestConsoleAppExperiments
 
             return secondLargestNum;
         }
+
+        // Gets the angle between the hour hand and the minute hand at any given time
+        // Precise down to the minute, and the hour hand moves .5 degrees every minute.
+        public static double DegreeBetweenHourandMinute(int hour, int minute)
+        {
+            if (hour > 12 || hour < 0)
+            {
+                throw new ArgumentOutOfRangeException("Hour value must be 1 - 12.");
+            }
+            if (minute > 59 || minute < 0)
+            {
+                throw new ArgumentOutOfRangeException("Minute value must be 0 - 60.");
+            }
+
+            if (hour == 12)
+                hour = 0;
+
+            double hourDegreePosition = (hour * 30.0) + (minute * .5);
+            double minutePosition = minute * 6.0;
+
+            double result = Math.Abs(hourDegreePosition - minutePosition);
+
+            if (result > 180)
+            {
+                return result - 180;
+            }
+
+            return result;
+        }
+
+        public static double DegreeBetweenHourandSecond(int hour, int minute, int second)
+        {
+            if (hour > 12 || hour < 0)
+            {
+                throw new ArgumentOutOfRangeException("Hour value must be 1 - 12.");
+            }
+            if (minute > 59 || minute < 0)
+            {
+                throw new ArgumentOutOfRangeException("Minute value must be 0 - 60.");
+            }
+            if (second > 59 || second < 0)
+            {
+                throw new ArgumentOutOfRangeException("Second value must be 0 - 59.");
+            }
+
+            if (hour == 12)
+                hour = 0;
+
+            double hourDegreePosition = (hour * 30.0) + (minute * .5);
+            double secondPosition = second * 6.0;
+
+            double result = Math.Abs(hourDegreePosition - secondPosition);
+
+            if (result > 180)
+            {
+                return result - 180;
+            }
+
+            return result;
+        }
     }
 }

@@ -11,6 +11,7 @@ using System.Runtime.Serialization;
 using System.Text.RegularExpressions;
 using System.Text;
 using System;
+using FunctionPlayground;
 
 namespace TestConsoleAppExperiments
 {
@@ -18,11 +19,6 @@ namespace TestConsoleAppExperiments
     {
         static void Main(string[] args)
         {
-            int n = Convert.ToInt32(Console.ReadLine());
-
-            int[] arr = Array.ConvertAll(Console.ReadLine().Split(' '), arrTemp => Convert.ToInt32(arrTemp))
-            ;
-            HackerRank.plusMinus(arr);
         }
     }
 }
